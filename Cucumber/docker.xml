@@ -3,7 +3,7 @@
 <suite name="Suite" parallel="methods" thread-count="2">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="testng.Docker"/>
+      <class name="docker.Docker"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
