@@ -27,3 +27,17 @@ http://localhost:4444/grid/console
 
 http://localhost:4444/dashboard/#
 
+
+##########################################Docker commands####################################
+
+Basic   		|Images         |Containers  |System
+---------------------------------------------------------------
+docker version	|docker images	|docker ps	 |docker stats
+docker -v		|docker pull	|docker run  |docker system df
+docker info		|docker rmi		|docker stop |docker system prune
+docker login	|				|docker start|	
+		
+docker rmi <Image ID> -- To remove existing images
+docker run -it <Repository name> -- To access the container -- repo name from docker images
+docker stop <Container ID> - To stop running container -- container id from docker ps
+docker system prune -- To remove stopped containers
