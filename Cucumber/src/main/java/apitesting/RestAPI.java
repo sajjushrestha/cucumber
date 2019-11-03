@@ -1,13 +1,13 @@
 package apitesting;
 
-import io.restassured.RestAssured;
-import  static io.restassured.RestAssured.*;
-import static org.hamcrest.Matchers.*;
-import io.restassured.response.Response;
+import static io.restassured.RestAssured.given;
 
 import java.util.concurrent.TimeUnit;
 
 import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+import io.restassured.response.Response;
 
 
 public class RestAPI {

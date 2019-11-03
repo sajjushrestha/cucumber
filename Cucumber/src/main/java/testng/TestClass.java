@@ -3,8 +3,6 @@ package testng;
 import java.util.LinkedList;
 import java.util.List;
 
-import org.junit.Assert;
-import org.testng.annotations.Test;
 
 public class TestClass {
 	
